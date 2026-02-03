@@ -1,0 +1,53 @@
+.Textonosotros {
+    text-align: center;
+    margin: 1rem;
+}
+
+.linea-rosa {
+  width: 50px;           
+  height: 4px;          
+  background-color: #F08080;
+  border: none;         
+  opacity: 1;            
+  margin-top: 5px;      
+  margin-left: 15px;     
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+.nuestra-mision {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.nuestra-mision img {
+    
+    height: 70px;
+    
+}
+h3 {
+    margin-left: 1rem;
+}
+.ImagenNosotros {
+   
+    margin-left: 10rem;
+}
+
+p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+.ImagenNosotros {
+    margin: 0 auto;
+    width: 100%;
+}
+
+   .Flexmedia {
+    flex-direction: column !important;
+   }
+   .Textonosotros {
+    max-width: 100%;
+   }
+}

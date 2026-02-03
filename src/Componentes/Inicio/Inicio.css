@@ -1,0 +1,85 @@
+.Media {
+    display: flex;
+}
+
+.SectionInicio {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ImagenInicio {
+    width: 40%;
+    height: 400px;
+    margin-left: 15rem;
+}
+
+.TextoInicio {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+    background-color: rgb(164, 130, 123);
+    color: white;
+    font-weight: bold;
+    margin-right: 15rem;
+    font-family: "Libertinus Sans", sans-serif;
+    font-size: 1.5rem;
+}
+
+.TextoInicio a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(236, 180, 180);
+    border-radius: 5px;
+    padding: 0.3rem;
+    font-weight: bold;
+    font-family: "Libertinus Sans", sans-serif;
+
+}
+
+.TextoInicio a:hover {
+
+    transition: 0.2s;
+    transform: scale(1.2);
+    color: rgba(0, 0, 0, 0.616);
+    background-color: rgb(245, 226, 212);
+}
+
+@media (max-width: 768px) {
+    .Media {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+
+
+    .TextoInicio {
+        margin: 0;
+        width: 90%;
+    }
+
+    .ImagenInicio {
+        width: 90%;
+        height: 300px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px)
+{
+    .ImagenInicio {
+        max-width: 40%;
+        margin-left: 4rem;
+    }
+
+    .TextoInicio {
+        max-width: 40%;
+        margin-right: 10rem;
+    }
+    .font-h2, .font-p {
+        font-size: small;
+    }
+}
+

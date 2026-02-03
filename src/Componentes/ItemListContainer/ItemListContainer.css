@@ -1,0 +1,59 @@
+.card {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    background-color: rgba(174, 214, 253, 0.31);
+    height: 550px;
+    width: 300px;
+
+}
+
+.card h3 {
+    font-family: "Libertinus Sans", sans-serif;
+    text-align: center;
+}
+
+.card img {
+    width: 90%;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.card p {
+    font-family: "Libertinus Sans", sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+}
+.Colorprecio {
+    font-family: "Libertinus Sans", sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #9b9797;
+}
+.BotonCatalogo {
+    font-family: "Libertinus Sans", sans-serif;
+    border-radius: 5px;
+    background-color: #ecb4b4;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 80%;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.SectionInicio {
+    font-family: "Libertinus Sans", sans-serif;
+    text-align: center;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .card {
+       margin: 0 auto;
+       margin-bottom: 1rem;
+    }
+}
+
