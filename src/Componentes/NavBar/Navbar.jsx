@@ -23,7 +23,7 @@ const Navbar = ({ abrirCarrito }) => {
                             <Link className="nav-link transform" to="/catalogo">Catálogo</Link>
                         </li>
                         <li className="nav-item">
-                            <span className="nav-link transform" onClick={abrirCarrito}><img className='ImagenCarrito' src="/imagenes/ImgCartWidget.png" alt="Imagen carrito de compra" /></span>
+                            <span className="nav-link transform" onClick={abrirCarrito}><img className='ImagenCarrito' src="/AgostinaPasteleria/imagenes/ImgCartWidget.png" alt="Imagen carrito de compra" /></span>
                         </li>
                     </ul>
                 </div>
