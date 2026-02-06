@@ -15,7 +15,7 @@ const Inicio = () => {
         </section>
 
         <div className="container-fluid Media">
-            <img className="ImagenInicio " src="./AgostinaPasteleria/imagenes/tortainicio.png" alt="Imagen inicio ilustrativa"></img>
+            <img className="ImagenInicio " src="/AgostinaPasteleria/imagenes/tortainicio.png" alt="Imagen inicio ilustrativa"></img>
             <div className="TextoInicio">
                 <h2 className="font-h2">Descubrí un nuevo sabor</h2>
                 <p className="font-p">en nuestro</p>

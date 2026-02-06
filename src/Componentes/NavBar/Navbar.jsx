@@ -1,6 +1,7 @@
 import Agostinapastelerialogo from '/imagenes/Agostinapastelerialogo.png'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Navbar = ({ abrirCarrito }) => {
     return (
