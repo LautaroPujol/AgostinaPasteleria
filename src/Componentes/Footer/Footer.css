@@ -1,11 +1,9 @@
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%; 
-    background-color: white; 
-    z-index: 100; 
+    width: 100%;
+    background-color: white;
+    z-index: 100;
 }
+
 .Footerflex {
     display: flex;
     justify-content: space-between;
@@ -15,10 +13,10 @@ footer {
 .Imagenes {
     gap: 5rem;
 }
+
 .imagen-footer {
     height: 30px;
     width: 30px;
     padding: 5px;
-    
-}
 
+}

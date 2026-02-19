@@ -5,13 +5,13 @@
 
 nav {
     max-width: 100%;
-    background-color: #ecb4b4;
+    background-color: #004d55;
 }
 
 .TextoNavbar {
     margin-right: 5rem;
     gap: 5rem;
-    color: black;
+    color: #f8f5f0 !important;
     cursor: pointer;
     font-weight: bold;
     font-size: small;
@@ -20,11 +20,18 @@ nav {
 .transform:hover {
     transform: scale(1.2);
     transition: 0.2s;
-    color: rgba(127, 27, 27, 0.523) !important;
+    color: #f8f5f0 !important;
 }
+
 .ImagenCarrito {
     width: 35px;
+    color: #f8f5f0;
 }
+.buscador {
+    width: 20%;
+    min-width: 200px;
+}
+
 @media (max-width: 768px) {
     .media {
         text-align: center;
@@ -42,6 +49,4 @@ nav {
 }
 
 
-@media (max-width: 992px) {
-    
-}
+@media (max-width: 992px) {}

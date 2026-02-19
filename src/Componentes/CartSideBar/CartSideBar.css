@@ -1,0 +1,19 @@
+.carrito-visible {
+  visibility: visible;
+}
+
+.carrito-oculto {
+  visibility: hidden;
+}
+
+.btn-fin {
+  color: white;
+  background-color: #f2a88d;
+}
+
+.btn-fin:hover {
+  background-color: #004d55 !important;
+}
+.TextoSucces {
+  color: #f2a88d;
+}

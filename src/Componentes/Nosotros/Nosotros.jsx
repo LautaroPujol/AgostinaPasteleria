@@ -9,23 +9,23 @@ const Nosotros = () => {
                 <h1 className="h1-nosotros">
                     Nuestra historia
                 </h1>
-                <img class="separacion" src="/AgostinaPasteleria/imagenes/separacion-nosotros.png" alt="Imagen separacion"></img>
+                <img className="separacion" src="/imagenes/separacion-nosotros.png" alt="Imagen separacion"></img>
                 <div>
-                    <p class="nuetra-historia">
+                    <p className="nuetra-historia">
                         Nacimos del amor por la repostería artesanal, creando sabores únicos que alegran cada momento.
                     </p>
                 </div>
             </div>
             <div className="d-flex flexs Flexmedia">
                 <div>
-                    <img className="ImagenNosotros" src="/AgostinaPasteleria/imagenes/nosotrosimagen.png" alt="Imagen Torta Nosotros Ilustrativa"></img>
+                    <img className="ImagenNosotros" src="/imagenes/nosotrosimagen.png" alt="Imagen Torta Nosotros Ilustrativa"></img>
                 </div>
                 <div className="container mt-5  ">
 
                     <div className="row mb-5">
                         <div className="col-md-5 col-sm-5 col-xs-6 mx-auto">
                             <div className="nuestra-mision">
-                                <img src="/AgostinaPasteleria/imagenes/nuestramision.png" alt="Imagen de nuestra misión ilustrativa"></img>
+                                <img src="/imagenes/nuestramision.png" alt="Imagen de nuestra misión ilustrativa"></img>
                                 <div>       
                                     <h3>Nuestra Misión</h3>
                                     <hr className="linea-rosa" />
@@ -38,7 +38,7 @@ const Nosotros = () => {
                     <div className="row mb-5">
                         <div className="col-md-5 col-sm-5 col-xs-6 mx-auto">
                             <div className="nuestra-mision">
-                                <img src="/AgostinaPasteleria/imagenes/nuestravision.png" alt="Imagen de nuestra visión ilustrativa"></img>
+                                <img src="/imagenes/nuestravision.png" alt="Imagen de nuestra visión ilustrativa"></img>
                                 <div>
                                     <h3>Nuestra Visión</h3>
                                     <hr className="linea-rosa" />
@@ -53,7 +53,7 @@ const Nosotros = () => {
                     <div className="row mb-5">
                         <div className="col-md-5 col-sm-5 col-xs-6 mx-auto">
                             <div className="nuestra-mision">
-                                <img src="/AgostinaPasteleria/imagenes/quehacemos.png" alt="Imagen de qué hacemos ilustrativa"></img>
+                                <img src="/imagenes/quehacemos.png" alt="Imagen de qué hacemos ilustrativa"></img>
                                 <div>
                                     <h3>Qué Hacemos</h3>
                                     <hr className="linea-rosa" />

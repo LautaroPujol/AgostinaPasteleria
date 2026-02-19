@@ -5,6 +5,7 @@
 .SectionInicio {
     text-align: center;
     padding: 2rem;
+    color: #004d55;
 }
 
 .ImagenInicio {
@@ -18,8 +19,8 @@
     margin: 0 auto;
     text-align: center;
     padding: 100px;
-    background-color: rgb(164, 130, 123);
-    color: white;
+    background-color:#004d55;
+    color: #f8f5f0;
     font-weight: bold;
     margin-right: 15rem;
     font-family: "Libertinus Sans", sans-serif;
@@ -27,9 +28,9 @@
 }
 
 .TextoInicio a {
-    color: white;
+    color: #004d55;
     text-decoration: none;
-    background-color: rgb(236, 180, 180);
+    background-color: #f2a88d;
     border-radius: 5px;
     padding: 0.3rem;
     font-weight: bold;

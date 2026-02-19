@@ -1,12 +1,13 @@
 .Textonosotros {
     text-align: center;
     margin: 1rem;
+    color: #004d55;
 }
 
 .linea-rosa {
   width: 50px;           
   height: 4px;          
-  background-color: #F08080;
+  background-color: #f2a88d;
   border: none;         
   opacity: 1;            
   margin-top: 5px;      
@@ -26,6 +27,7 @@
     
 }
 h3 {
+    color: #004d55;
     margin-left: 1rem;
 }
 .ImagenNosotros {
@@ -36,6 +38,7 @@ h3 {
 p {
     font-size: 12px;
     font-weight: bold;
+    color: #004d55;
 }
 
 @media (max-width: 800px) {

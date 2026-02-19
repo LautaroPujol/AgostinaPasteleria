@@ -1,0 +1,5 @@
+#root {
+  display: flex;
+  flex-direction: column; /* Organiza los elementos en columna (uno abajo del otro) */
+  min-height: 100vh;      /* Obliga a que la altura mínima sea el 100% de la pantalla */
+}
