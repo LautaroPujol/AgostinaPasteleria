@@ -74,7 +74,6 @@ AgostinaPasteleria/
 ├── src/
 │   ├── components/          # Componentes reutilizables (Navbar, Card, Cart, etc.)
 │   ├── context/             # Context API — estado global del carrito
-│   ├── pages/               # Vistas principales (Home, Catálogo, etc.)
 │   ├── firebase/            # Configuración e inicialización de Firebase
 │   ├── App.jsx              # Componente raíz y rutas
 │   └── main.jsx             # Punto de entrada
