@@ -32,7 +32,6 @@ const Navbar = ({ abrirCarrito, manejarBusqueda }) => {
                                 type="search"
                                 placeholder="🔍 Buscar torta..."
                                 aria-label="Search"
-                                // Aquí enviamos el texto a App.jsx cada vez que escribis
                                 onChange={(e) => manejarBusqueda(e.target.value)}
                             />
                         </div>
@@ -42,7 +41,6 @@ const Navbar = ({ abrirCarrito, manejarBusqueda }) => {
                     {location.pathname !== '/catalogo' && <div className="mx-auto"></div>}
                     {/* --- FIN ZONA BUSCADOR --- */}
 
-                    {/* TUS LINKS (A la derecha) */}
                     <ul className="navbar-nav mb-2 mb-lg-0 TextoNavbar media">
                         <li className="nav-item">
                             <Link className="nav-link transform" to="/">Inicio</Link>
@@ -57,6 +55,7 @@ const Navbar = ({ abrirCarrito, manejarBusqueda }) => {
                             {/* Icono del Carrito */}
                             <span className="nav-link transform" onClick={abrirCarrito} style={{ cursor: 'pointer' }}>
                                 <img className='ImagenCarrito' src="/imagenes/ImgCartWidget.png" alt="Imagen carrito de compra" />
+                                
                             </span>
                         </li>
                     </ul>
