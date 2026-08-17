@@ -9,12 +9,11 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 // Importamos todos los routers API
-import productsRouter from './routes/products.router.js';
-import cartsRouter from './routes/carts.router.js';
-import authRouter from './routes/auth.router.js';
-import ordersRouter from './routes/orders.router.js';
-import viewsRouter from './routes/views.router.js';
-
+import productsRouter from './Routes/products.router.js';
+import cartsRouter from './Routes/carts.router.js';
+import authRouter from './Routes/auth.router.js';
+import ordersRouter from './Routes/orders.router.js';
+import viewsRouter from './Routes/views.router.js';
 import { socketMiddleware } from './middleware/socket.js';
 
 dotenv.config();

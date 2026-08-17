@@ -7,7 +7,7 @@ import {
   updateCart,
   updateProductQuantity,
   clearCart
-} from '../controllers/cartController.js';
+} from '../controllers/CartController.js';
 
 const router = Router();
 
