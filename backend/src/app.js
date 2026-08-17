@@ -13,8 +13,6 @@ import productsRouter from './routes/products.router.js';
 import cartsRouter from './routes/carts.router.js';
 import authRouter from './routes/auth.router.js';
 import ordersRouter from './routes/orders.router.js';
-
-// Import router de vistas (Handlebars)
 import viewsRouter from './routes/views.router.js';
 
 import { socketMiddleware } from './middleware/socket.js';

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 // Importamos las funciones centralizadas de api/products.js
 import { fetchProducts, deleteProduct } from "../../api/Product";
-import { removeToken, isAuthenticated } from "../../api/config";
+import { removeToken, isAuthenticated } from "../../api/Config";
 import "./Admin.css";
 
 const Admin = () => {

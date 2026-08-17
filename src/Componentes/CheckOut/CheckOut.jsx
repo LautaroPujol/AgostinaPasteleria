@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createOrder } from "../../api/product";
+import { createOrder } from "../../api/Product";
 import "./CheckOut.css";
 
 const Checkout = ({ cart, total, vaciarCarrito }) => {

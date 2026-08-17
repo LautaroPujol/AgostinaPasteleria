@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { createProduct } from "../../api/product";
+import { createProduct } from "../../api/Product";
 
 const AgregarProducto = () => {
   const [valores, setValores] = useState({

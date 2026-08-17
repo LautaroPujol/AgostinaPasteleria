@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./ItemListContainer.css";
-import { fetchProducts } from "../../api/product";
+import { fetchProducts } from "../../api/Product";
 
 const ItemListContainer = ({ agregarAlCarrito, busqueda }) => {
   const [productos, setProductos] = useState([]);

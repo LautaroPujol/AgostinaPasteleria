@@ -8,7 +8,7 @@ import ItemListContainer from './Componentes/ItemListContainer/ItemListContainer
 import Footer from './Componentes/Footer/Footer';
 import CartSidebar from './Componentes/CartSideBar/CartSideBar';
 import Notificacion from './Componentes/Notificacion/Notificacion';
-import { useCarrito } from './hooks/useCarrito';
+import { useCarrito } from './Hooks/Usecarrito';
 import Checkout from './Componentes/CheckOut/CheckOut';
 import { HelmetProvider } from 'react-helmet-async';
 import { useState } from 'react';

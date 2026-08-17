@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { fetchProductById, updateProduct } from "../../api/product";
+import { fetchProductById, updateProduct } from "../../api/Product";
 import "./EditarProducto.css";
 
 const EditarProducto = () => {

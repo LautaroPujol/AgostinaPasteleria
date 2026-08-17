@@ -1,4 +1,4 @@
-import { API_URL, getToken } from './config';
+import { API_URL, getToken } from './Config';
 
 // ── Productos públicos ───────────────────────────────────────────────────────
 
