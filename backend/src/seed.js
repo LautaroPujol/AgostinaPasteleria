@@ -13,7 +13,7 @@ const productos = [
     stock: 10,
     status: true,
     category: 'tortas',
-    thumbnails: ['http://localhost:8080/images/imperialruso.png']
+    thumbnails: ['https://agostinapasteleria.onrender.com/images/imperialruso.png']
   },
   {
     title: 'Lemon Pie',
@@ -23,7 +23,7 @@ const productos = [
     stock: 8,
     status: true,
     category: 'tortas',
-    thumbnails: ['http://localhost:8080/images/lemonpie.png']
+    thumbnails: ['https://agostinapasteleria.onrender.com/images/lemonpie.png']
   },
   {
     title: 'Torta Alfajor',
@@ -33,7 +33,7 @@ const productos = [
     stock: 6,
     status: true,
     category: 'tortas',
-    thumbnails: ['http://localhost:8080/images/tortaalfajor.png']
+    thumbnails: ['https://agostinapasteleria.onrender.com/images/tortaalfajor.png']
   },
   {
     title: 'Torta Almendra',
@@ -43,7 +43,7 @@ const productos = [
     stock: 5,
     status: true,
     category: 'tortas',
-    thumbnails: ['http://localhost:8080/images/tortaalmendra.png']
+    thumbnails: ['https://agostinapasteleria.onrender.com/images/tortaalmendra.png']
   },
   {
     title: 'Torta Chajá',
@@ -53,7 +53,7 @@ const productos = [
     stock: 7,
     status: true,
     category: 'tortas',
-    thumbnails: ['http://localhost:8080/images/tortachaja.png']
+    thumbnails: ['https://agostinapasteleria.onrender.com/images/tortachaja.png']
   },
   {
     title: 'Torta Frutilla',
@@ -63,7 +63,7 @@ const productos = [
     stock: 9,
     status: true,
     category: 'tortas',
-    thumbnails: ['http://localhost:8080/images/tortafrutilla.png']
+    thumbnails: ['https://agostinapasteleria.onrender.com/images/tortafrutilla.png']
   },
   {
     title: 'Torta Matilda',
@@ -73,7 +73,7 @@ const productos = [
     stock: 4,
     status: true,
     category: 'tortas',
-    thumbnails: ['http://localhost:8080/images/tortamatilda.png']
+    thumbnails: ['https://agostinapasteleria.onrender.com/images/tortamatilda.png']
   },
   {
     title: 'Torta Merengue',
@@ -83,7 +83,7 @@ const productos = [
     stock: 6,
     status: true,
     category: 'tortas',
-    thumbnails: ['http://localhost:8080/images/tortamerengue.png']
+    thumbnails: ['https://agostinapasteleria.onrender.com/images/tortamerengue.png']
   },
   {
     title: 'Torta Rogel',
@@ -93,7 +93,7 @@ const productos = [
     stock: 5,
     status: true,
     category: 'tortas',
-    thumbnails: ['http://localhost:8080/images/tortarogel.png']
+    thumbnails: ['https://agostinapasteleria.onrender.com/images/tortarogel.png']
   }
 ];
 
