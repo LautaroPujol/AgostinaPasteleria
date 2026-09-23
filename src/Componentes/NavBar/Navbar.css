@@ -1,0 +1,52 @@
+.ImgLogo {
+    width: 150px;
+    height: 80px;
+}
+
+nav {
+    max-width: 100%;
+    background-color: #004d55;
+}
+
+.TextoNavbar {
+    margin-right: 5rem;
+    gap: 5rem;
+    color: #f8f5f0 !important;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: small;
+}
+
+.transform:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    color: #f8f5f0 !important;
+}
+
+.ImagenCarrito {
+    width: 35px;
+    color: #f8f5f0;
+}
+.buscador {
+    width: 20%;
+    min-width: 200px;
+}
+
+@media (max-width: 768px) {
+    .media {
+        text-align: center;
+        margin: 1rem;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .media {
+        text-align: center;
+        margin: 1rem;
+        gap: 1rem;
+    }
+}
+
+
+@media (max-width: 992px) {}

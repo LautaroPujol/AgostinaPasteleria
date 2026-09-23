@@ -1,0 +1,48 @@
+<h2 class="mb-4" style="color: #004d55;">🛒 Mi Carrito</h2>
+
+{{#if hasProducts}}
+
+    <!-- Lista de productos del carrito -->
+    {{#each products}}
+    <div class="carrito-item">
+        <img src="{{this.thumbnail}}" alt="{{this.title}}">
+        <div class="flex-grow-1">
+            <h5 class="mb-1" style="color: #004d55;">{{this.title}}</h5>
+            <p class="mb-0 text-muted small">Precio unitario: ${{this.price}}</p>
+        </div>
+        <div class="text-center">
+            <p class="mb-0 text-muted small">Cantidad</p>
+            <strong>{{this.quantity}}</strong>
+        </div>
+        <div class="text-end">
+            <p class="mb-0 text-muted small">Subtotal</p>
+            <strong style="color: #004d55;">${{this.subtotal}}</strong>
+        </div>
+    </div>
+    {{/each}}
+
+    <!-- Total -->
+    <div class="carrito-total">
+        Total: ${{total}}
+    </div>
+
+    <!-- Botones -->
+    <div class="d-flex gap-2 justify-content-end mt-3">
+        <a href="/products" class="btn btn-outline-secondary">
+            ← Seguir comprando
+        </a>
+        <a href="/checkout" class="btn-pasteleria btn">
+            Confirmar pedido ✅
+        </a>
+    </div>
+
+{{else}}
+    <!-- Carrito vacío -->
+    <div class="text-center py-5">
+        <p style="font-size: 3rem;">🛒</p>
+        <h4 class="text-muted">Tu carrito está vacío</h4>
+        <a href="/products" class="btn-pasteleria btn mt-3">
+            Ver catálogo
+        </a>
+    </div>
+{{/if}}

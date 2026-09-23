@@ -1,0 +1,164 @@
+/* ── General ──────────────────────────────────────────────────────────────── */
+body {
+  background-color: #f8f5f0;
+  font-family: 'Georgia', serif;
+  color: #333;
+}
+
+/* ── Navbar ───────────────────────────────────────────────────────────────── */
+.navbar-custom {
+  background-color: #004d55;
+}
+
+.navbar-custom a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar-custom a:hover {
+  color: #f2a88d !important;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* ── Cards de productos ───────────────────────────────────────────────────── */
+.card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.card-body {
+  padding: 1.2rem;
+}
+
+/* ── Precios ──────────────────────────────────────────────────────────────── */
+.precio {
+  color: #004d55;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+/* ── Botones ──────────────────────────────────────────────────────────────── */
+.btn-pasteleria {
+  background-color: #f2a88d;
+  color: #004d55;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  transition: background-color 0.2s;
+}
+
+.btn-pasteleria:hover {
+  background-color: #e89070;
+  color: #004d55;
+}
+
+.btn-pasteleria:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #888;
+}
+
+/* ── Paginación ───────────────────────────────────────────────────────────── */
+.paginacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.paginacion a {
+  background-color: #004d55;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.paginacion a:hover {
+  background-color: #f2a88d;
+  color: #004d55;
+}
+
+.paginacion span {
+  color: #004d55;
+  font-weight: bold;
+}
+
+/* ── Detalle del producto ─────────────────────────────────────────────────── */
+.detalle-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.detalle-info {
+  padding: 2rem;
+}
+
+.detalle-info h1 {
+  color: #004d55;
+  font-size: 2rem;
+}
+
+.badge-stock {
+  font-size: 0.9rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+}
+
+/* ── Carrito ──────────────────────────────────────────────────────────────── */
+.carrito-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.carrito-item img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.carrito-total {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #004d55;
+  text-align: right;
+  margin-top: 1.5rem;
+}
+
+/* ── Footer ───────────────────────────────────────────────────────────────── */
+footer {
+  background-color: #004d55;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}

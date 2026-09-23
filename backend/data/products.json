@@ -1,0 +1,87 @@
+[
+  {
+    "id": "1",
+    "title": "Imperial Ruso",
+    "description": "Clásico de la pastelería argentina, capas de merengue y crema.",
+    "code": "imperial-ruso-001",
+    "price": 8500,
+    "stock": 10,
+    "status": true,
+    "category": "tortas",
+    "thumbnails": [
+      "http://localhost:8080/images/imperialruso.png"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Lemon Pie",
+    "description": "Base crocante, relleno de crema de limón y merengue tostado.",
+    "code": "lemon-pie-002",
+    "price": 7800,
+    "stock": 8,
+    "status": true,
+    "category": "tortas",
+    "thumbnails": [
+      "http://localhost:8080/images/lemonpie.png"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Torta Rogel",
+    "description": "Hojaldre artesanal con capas de dulce de leche y merengue italiano.",
+    "code": "torta-rogel-009",
+    "price": 10200,
+    "stock": 5,
+    "status": true,
+    "category": "tortas",
+    "thumbnails": [
+      "http://localhost:8080/images/tortarogel.png"
+    ]
+  },
+  {
+    "id": "1778712675439",
+    "title": "Imperial Ruso",
+    "description": "123132",
+    "code": "imperial-ruso-1778712675426",
+    "price": 1231231,
+    "status": true,
+    "stock": 15,
+    "category": "tortas",
+    "thumbnails": []
+  },
+  {
+    "id": "1778712849867",
+    "title": "Lemon Pie",
+    "description": "123123123",
+    "code": "lemon-pie-1778712849862",
+    "price": 1231231,
+    "status": true,
+    "stock": 15123,
+    "category": "tortas",
+    "thumbnails": [
+      "123123123"
+    ]
+  },
+  {
+    "id": "1778714371025",
+    "title": "Imperial Ruso",
+    "description": "",
+    "code": "imperial-ruso-1778714371019",
+    "price": 123,
+    "status": true,
+    "stock": 15,
+    "category": "tortas",
+    "thumbnails": []
+  },
+  {
+    "id": "1778714511253",
+    "title": "Lemon Pie",
+    "description": "",
+    "code": "lemon-pie-1778714511242",
+    "price": 123,
+    "status": true,
+    "stock": 15,
+    "category": "tortas",
+    "thumbnails": []
+  }
+]
