@@ -1,8 +1,4 @@
-me generas un readme nuevo para el proyecto
 
-20:28
-Claude respondió: backend/
-markdown
 # 🍰 Agostina Pastelería — Backend
 
 API REST para la tienda online de Agostina Pastelería. Migración completa desde Firebase a un backend propio con Node.js, Express y MongoDB.
